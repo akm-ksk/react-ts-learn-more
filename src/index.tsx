@@ -12,6 +12,8 @@ import {ReducerCount} from "./components/Reducer";
 import {FizzBuzz} from "./components/FizzBazz";
 import {UseCallBackComponent} from "./components/UseCallBack";
 import {UseMemoSample} from "./components/UseMemoSample";
+import {Clock} from "./components/Clock";
+import {UseUserContext} from "./components/UseUserContext";
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
@@ -31,6 +33,8 @@ root.render(
         <FizzBuzz/>
         <UseCallBackComponent/>
         <UseMemoSample/>
+        <Clock/>
+        <UseUserContext/>
     </>
 );
 
