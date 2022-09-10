@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Hello} from "./components/Hello";
 import {Name} from "./components/Name";
@@ -14,6 +13,8 @@ import {UseCallBackComponent} from "./components/UseCallBack";
 import {UseMemoSample} from "./components/UseMemoSample";
 import {Clock} from "./components/Clock";
 import {UseUserContext} from "./components/UseUserContext";
+import {ImageUpload, UseRefParent} from "./components/UseRef";
+import {UseInput} from "./components/useInput";
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
@@ -35,6 +36,9 @@ root.render(
         <UseMemoSample/>
         <Clock/>
         <UseUserContext/>
+        <ImageUpload/>
+        <UseRefParent/>
+        <UseInput/>
     </>
 );
 
